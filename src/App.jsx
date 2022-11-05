@@ -208,13 +208,13 @@ function App() {
       <div className="text-justify sm:text-left p-6 flex flex-col gap-3">
         <p>
           Browser for the{" "}
-          <a href="https://huggingface.co/sd-concepts-library">
+          <a target="_blank" href="https://huggingface.co/sd-concepts-library">
             HuggingFace textual inversion library
           </a>
           . There are currently {totalElements} textual inversion embeddings on
           this site (much more in sd-concepts-library!). These are meant to be
           used with{" "}
-          <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">
+          <a target="_blank" href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">
             AUTOMATIC1111's SD WebUI
           </a>
           .
@@ -223,11 +223,11 @@ function App() {
           Embeddings are downloaded straight from the HuggingFace repositories.
           The images displayed are the inputs, not the outputs. Want to quickly
           test concepts? Try the{" "}
-          <a href="https://huggingface.co/spaces/sd-concepts-library/stable-diffusion-conceptualizer">
+          <a target="_blank" href="https://huggingface.co/spaces/sd-concepts-library/stable-diffusion-conceptualizer">
             Stable Diffusion Conceptualizer on HuggingFace
           </a>
           .{" "}
-          <a href="https://huggingface.co/docs/diffusers/main/en/training/text_inversion">
+          <a target="_blank" href="https://huggingface.co/docs/diffusers/main/en/training/text_inversion">
             More info on textual inversion.
           </a>
         </p>
